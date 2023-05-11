@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
 
 ## OUTPUT
 
-![]()
+![](exp3.png)
 
 
 
