@@ -29,12 +29,75 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “Hello World”.
-Developed by:
-Registeration Number :
+Developed by:Vijay kumar V.R.
+Registeration Number : 212221040178
+
+package com.example.myapp;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Toast t2=Toast.makeText(getApplicationContext(),"onCreate Executed", Toast.LENGTH_LONG);
+        t2.show();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Toast t2=Toast.makeText(getApplicationContext(),"onStart Executed", Toast.LENGTH_LONG);
+        t2.show();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Toast t2=Toast.makeText(getApplicationContext(),"onPause Executed", Toast.LENGTH_LONG);
+        t2.show();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Toast t2=Toast.makeText(getApplicationContext(),"onResume Executed", Toast.LENGTH_LONG);
+        t2.show();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Toast t2=Toast.makeText(getApplicationContext(),"onResume Executed", Toast.LENGTH_LONG);
+        t2.show();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Toast t2=Toast.makeText(getApplicationContext(),"onStop Executed", Toast.LENGTH_LONG);
+        t2.show();
+    }
+    protected void onDestroy(){
+        super.onStop();
+        Toast t2=Toast.makeText(getApplicationContext(),"onDestroy Executed", Toast.LENGTH_LONG);
+        t2.show();
+    }
+}
+
 */
 ```
 
 ## OUTPUT
+
+![]()
+
+
 
 
 
